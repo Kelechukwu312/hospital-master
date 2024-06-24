@@ -1,0 +1,174 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bowen University Medical Clinic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="icon" href="/media/profile_pic/bowen-logo.png" type = "image/x-icon">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/open-iconic-bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/animate.css'%}">
+      <link href="{% static 'bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/magnific-popup.css'%}">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/aos.css'%}">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/ionicons.min.css'%}">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/flaticon.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/icomoon.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/style.css'%}">
+
+<link href="{% static 'bootstrap/css/fontawesome-all.min.css'%}" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="{% static 'bootstrap/vendor/fontawesome-free/css/all.min.css'%}" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template-->
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  	<div class="py-1 bg-black top">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+	    		<div class="col-lg-12 d-block">
+		    		<div class="row d-flex">
+		    			<div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span></span></div>
+						    <span class="text"><i class="fa fa-phone"></i> +2348064974085, +2348033861899.</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span></span></div>
+						    <span class="text"><i class="far fa-envelope"></i> student.support@bowen.edu.ng</span>
+					    </div>
+					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+						    <p class="mb-0 register-link"><a href="{%url 'log:patients_login'%}">Sign in your account</a></p>
+
+					    </div>
+
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+			<img src="{% static 'image/IMG_7508-removebg-preview.png'%}" width="60" alt="user">
+
+	      <a class="navbar-brand" href="index.html" style="font-size:20px;">BOWEN UNIVERSITY CLINIC</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="" class="nav-link"><span>Home</span></a></li>
+	         <li class="nav-item cta mr-md-2"><a href="{%url 'log:patients_login'%}" class="nav-link">Book an appointment</a></li>
+
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url(/media/profile_pic/bowen-home.jpg);" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-start">
+		<div class="col-md-9 pb-4">
+            <h1 class="mb-3 bread"></h1>
+             <p class="breadcrumbs">
+				<span class="mr-2 bg-white p-2 border border-1 rounded">
+				<a href="index.html">Home <i class="fa fa-home"></i></a></span>
+				 <span class="bg-white p-2 border border-1 rounded">Appointment <i class="fas fa-user-md"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container py-5">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(static/image/picture.jpg);">
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
+    				<div class="py-md-5">
+	    				<div class="row justify-content-start pb-3">
+			          <div class="col-md-12">
+			            <h2 class="mb-4"><span></span>  STATEMENT</h2>
+			            <p>Bowen University Medical Clinic is dedicated to helping people achieve and maintain healthy lives and restoring wellness/health to maximum attainable levels.</p>
+			            <p><a href="#" class="btn btn-black py-3 px-4">About Us</a>
+			          </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-intro img" style="background-image: url(static/image/cumc.jpg);">
+			<div class="overlay"></div>
+			<div class="container">MISSION
+				<div class="row justify-content-center">
+					<div class="col-md-9 text-center">
+						<h2>Your Health is Our Priority</h2>
+						<p>The Medical Centre is dedicated to helping people achieve and maintain healthy lives and restoring wellness/health to maximum attainable levels.</p>
+						<p class="mb-0"><a href="#" class="btn btn-black px-4 py-3">Search Places</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+                <footer>
+                    <div style="text-align:center;">
+                        <p class="pull-right">©2024 Bowen University <a></a>. |
+                            <span class="lead"> <i class="fa fa-paw"></i> </span>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+
+
+
+  <!-- loader -->
+  <!--<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>-->
+
+
+  <script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery-migrate-3.0.1.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/popper.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery.easing.1.3.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery.waypoints.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery.stellar.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/owl.carousel.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery.magnific-popup.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/aos.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/jquery.animateNumber.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/scrollax.min.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/google-map.js' %}"></script>
+
+  <script src="{% static 'bootstrap/js/main.js' %}"></script>
+
+  </body>
+</html>
